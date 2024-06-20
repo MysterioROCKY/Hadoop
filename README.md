@@ -25,3 +25,15 @@ The Common Words project is designed to identify and count common words in given
    ```sh
    java CommonWords stopwords.txt task1-input1.txt task1-input2.txt
    
+
+## Hadoop SVM Implementation
+
+### Description
+This project implements a Support Vector Machine (SVM) for data classification using the Hadoop framework. SVM is a supervised learning algorithm used for binary classification tasks. The project leverages the distributed computing capabilities of Hadoop to handle large-scale datasets efficiently.
+
+### Files
+- **SVM.java**: Main Java program implementing the SVM using Hadoop.
+- **SVM.jar**: Compiled JAR file containing the SVM program.
+- **Input_AIDS_Classification_5000.txt**: Input data file used for SVM training and classification.
+- **Output_AIDS_Classification_1000.txt**: Output file containing the classified results after SVM execution.
+- **Hadoop_SVM_Report.pdf**: Detailed report providing insights into the SVM implementation, methodology, and results.
